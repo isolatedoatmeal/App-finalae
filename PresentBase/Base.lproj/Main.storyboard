@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dee-YX-Ooz">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dee-YX-Ooz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -41,12 +41,6 @@
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some kind of tech" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXa-NV-fGb">
-                                            <rect key="frame" x="0.0" y="86" width="375" height="19.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUB-Y4-72E">
                                             <rect key="frame" x="158" y="74" width="60" height="2"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,18 +52,14 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="mUB-Y4-72E" firstAttribute="centerY" secondItem="Eal-G7-KTD" secondAttribute="centerY" id="KaS-GK-lah"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="yXa-NV-fGb" secondAttribute="trailing" constant="-8" id="UlX-qf-xr4"/>
-                                        <constraint firstItem="yXa-NV-fGb" firstAttribute="top" secondItem="mUB-Y4-72E" secondAttribute="bottom" constant="10" id="f0k-Id-IDz"/>
                                         <constraint firstItem="J0f-Dj-6Ly" firstAttribute="leading" secondItem="Eal-G7-KTD" secondAttribute="leadingMargin" constant="-8" id="h66-4b-9ox"/>
                                         <constraint firstItem="mUB-Y4-72E" firstAttribute="centerX" secondItem="Eal-G7-KTD" secondAttribute="centerX" id="jT4-Ay-qbv"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="J0f-Dj-6Ly" secondAttribute="trailing" constant="-8" id="n4e-hh-wSm"/>
-                                        <constraint firstItem="yXa-NV-fGb" firstAttribute="leading" secondItem="Eal-G7-KTD" secondAttribute="leadingMargin" constant="-8" id="oyz-r9-dF2"/>
                                         <constraint firstItem="mUB-Y4-72E" firstAttribute="top" secondItem="J0f-Dj-6Ly" secondAttribute="bottom" constant="11" id="zJp-KO-Mpy"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="backgroundImageView" destination="Umn-tN-tHg" id="suK-Nu-PGc"/>
-                                    <outlet property="itemLabel" destination="yXa-NV-fGb" id="bdF-Nx-d8R"/>
                                     <outlet property="nameLabel" destination="J0f-Dj-6Ly" id="Y7G-Qr-Krw"/>
                                 </connections>
                             </tableViewCell>
